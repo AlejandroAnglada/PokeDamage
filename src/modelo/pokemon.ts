@@ -1,12 +1,12 @@
 class Pokemon {
-	hp: number;
-	attack: number;
-	sp_attack: number;
-	defense: number;
-	sp_defense: number;
-	speed: number;
-	type_1: number;
-	type_2: number;
-	is_burning: boolean;
-	moves: Movimiento[];
+	vida: number;
+	ataque: number;
+	ataque_especial: number;
+	defensa: number;
+	defensa_especial: number;
+	velocidad: number;
+	tipo_1: number;
+	tipo_2: number;
+	quemado: boolean;
+	movimientos: Movimiento[];
 }
