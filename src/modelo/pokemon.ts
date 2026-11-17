@@ -7,5 +7,6 @@ class Pokemon {
 	speed: number;
 	type_1: number;
 	type_2: number;
+	is_burning: boolean;
 	moves: Movimiento[];
 }
